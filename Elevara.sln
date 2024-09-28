@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevara", "Elevara\Elevara.csproj", "{70C926E5-460C-47A5-8928-FEF5BC3E16D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C926E5-460C-47A5-8928-FEF5BC3E16D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C926E5-460C-47A5-8928-FEF5BC3E16D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C926E5-460C-47A5-8928-FEF5BC3E16D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C926E5-460C-47A5-8928-FEF5BC3E16D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06209F35-7E77-4127-AFB2-26BF6EB708B8}
+	EndGlobalSection
+EndGlobal
