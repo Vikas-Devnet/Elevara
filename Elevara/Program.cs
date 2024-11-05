@@ -12,7 +12,11 @@ namespace Elevara
             // see https://aka.ms/applicationconfiguration.
 
             ApplicationConfiguration.Initialize();
-            Application.Run(new Layout());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Splash splash = new();
+            splash.ShowDialog();
+            Application.Run(new Authentication());
         }
     }
 }

@@ -30,293 +30,237 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Authentication));
             panel1 = new Panel();
-            button2 = new Button();
-            label9 = new Label();
-            textBox5 = new TextBox();
-            pictureBox1 = new PictureBox();
-            panel2 = new Panel();
-            button1 = new Button();
-            comboBox3 = new ComboBox();
-            label8 = new Label();
-            comboBox2 = new ComboBox();
-            label7 = new Label();
+            panel3 = new Panel();
+            panel5 = new Panel();
+            authSignUp = new Label();
             label5 = new Label();
-            textBox4 = new TextBox();
-            comboBox1 = new ComboBox();
-            label6 = new Label();
-            label4 = new Label();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            label2 = new Label();
-            textBox1 = new TextBox();
             label1 = new Label();
+            panel4 = new Panel();
+            authRememberCredential = new RadioButton();
+            authLoginBtn = new Button();
+            authPassword = new TextBox();
+            label4 = new Label();
+            label3 = new Label();
+            authUsername = new TextBox();
+            label2 = new Label();
+            panel2 = new Panel();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panel5.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.AutoScroll = true;
-            panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(pictureBox1);
+            panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
-            panel1.Controls.Add(comboBox3);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(comboBox2);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(comboBox1);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(12, 12);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(50, 100);
             panel1.Name = "panel1";
-            panel1.Size = new Size(464, 629);
+            panel1.Size = new Size(1182, 653);
             panel1.TabIndex = 0;
             // 
-            // button2
+            // panel3
             // 
-            button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(62, 542);
-            button2.Name = "button2";
-            button2.Size = new Size(324, 56);
-            button2.TabIndex = 22;
-            button2.Text = "Sign Up";
-            button2.UseVisualStyleBackColor = true;
+            panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(panel5);
+            panel3.Controls.Add(label1);
+            panel3.Controls.Add(panel4);
+            panel3.Dock = DockStyle.Right;
+            panel3.Location = new Point(493, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(689, 653);
+            panel3.TabIndex = 1;
             // 
-            // label9
+            // panel5
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(256, 293);
-            label9.Name = "label9";
-            label9.Size = new Size(114, 20);
-            label9.TabIndex = 21;
-            label9.Text = "Mobile Number";
-            label9.Click += label9_Click;
+            panel5.Controls.Add(authSignUp);
+            panel5.Controls.Add(label5);
+            panel5.Location = new Point(242, 435);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(235, 28);
+            panel5.TabIndex = 4;
             // 
-            // textBox5
+            // authSignUp
             // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(256, 316);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(185, 27);
-            textBox5.TabIndex = 20;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(256, 364);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(185, 153);
-            pictureBox1.TabIndex = 19;
-            pictureBox1.TabStop = false;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(button1);
-            panel2.Location = new Point(23, 455);
-            panel2.Name = "panel2";
-            panel2.Padding = new Padding(3);
-            panel2.Size = new Size(186, 62);
-            panel2.TabIndex = 18;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(10, 18);
-            button1.Name = "button1";
-            button1.Size = new Size(151, 29);
-            button1.TabIndex = 0;
-            button1.Text = "Upload Photo";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            comboBox3.Enabled = false;
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(24, 387);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(185, 28);
-            comboBox3.TabIndex = 17;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(24, 364);
-            label8.Name = "label8";
-            label8.Size = new Size(71, 20);
-            label8.TabIndex = 16;
-            label8.Text = "Rto Code";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(23, 316);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(186, 28);
-            comboBox2.TabIndex = 15;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(24, 293);
-            label7.Name = "label7";
-            label7.Size = new Size(82, 20);
-            label7.TabIndex = 14;
-            label7.Text = "State Code";
-            label7.Click += label7_Click;
+            authSignUp.AutoSize = true;
+            authSignUp.Dock = DockStyle.Right;
+            authSignUp.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            authSignUp.Location = new Point(172, 0);
+            authSignUp.Name = "authSignUp";
+            authSignUp.Size = new Size(63, 20);
+            authSignUp.TabIndex = 1;
+            authSignUp.Text = "Sign Up";
+            authSignUp.Click += AuthSignUp_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(24, 240);
+            label5.Dock = DockStyle.Left;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = SystemColors.GrayText;
+            label5.Location = new Point(0, 0);
             label5.Name = "label5";
-            label5.Size = new Size(114, 20);
-            label5.TabIndex = 13;
-            label5.Text = "Mobile Number";
-            // 
-            // textBox4
-            // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(24, 263);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(185, 27);
-            textBox4.TabIndex = 12;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(256, 262);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(185, 28);
-            comboBox1.TabIndex = 11;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(256, 239);
-            label6.Name = "label6";
-            label6.Size = new Size(57, 20);
-            label6.TabIndex = 10;
-            label6.Text = "Gender";
-            label6.Click += label6_Click;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(24, 179);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 20);
-            label4.TabIndex = 7;
-            label4.Text = "Email";
-            // 
-            // textBox3
-            // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(24, 202);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(390, 27);
-            textBox3.TabIndex = 6;
-            textBox3.TextChanged += textBox3_TextChanged;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(256, 111);
-            label3.Name = "label3";
-            label3.Size = new Size(80, 20);
-            label3.TabIndex = 5;
-            label3.Text = "First Name";
-            label3.Click += label3_Click;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(256, 134);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(185, 27);
-            textBox2.TabIndex = 4;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(23, 111);
-            label2.Name = "label2";
-            label2.Size = new Size(80, 20);
-            label2.TabIndex = 3;
-            label2.Text = "First Name";
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(24, 134);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(185, 27);
-            textBox1.TabIndex = 1;
+            label5.Size = new Size(175, 20);
+            label5.TabIndex = 0;
+            label5.Text = "Don't have an account ?";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(151, 40);
+            label1.Font = new Font("Arial Unicode MS", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(106, 78);
             label1.Name = "label1";
-            label1.Size = new Size(130, 41);
-            label1.TabIndex = 0;
-            label1.Text = "Sign Up";
+            label1.Size = new Size(195, 31);
+            label1.TabIndex = 1;
+            label1.Text = "Welcome Back !";
+            // 
+            // panel4
+            // 
+            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel4.BorderStyle = BorderStyle.FixedSingle;
+            panel4.Controls.Add(authRememberCredential);
+            panel4.Controls.Add(authLoginBtn);
+            panel4.Controls.Add(authPassword);
+            panel4.Controls.Add(label4);
+            panel4.Controls.Add(label3);
+            panel4.Controls.Add(authUsername);
+            panel4.Controls.Add(label2);
+            panel4.Location = new Point(106, 112);
+            panel4.Name = "panel4";
+            panel4.Padding = new Padding(20);
+            panel4.Size = new Size(467, 317);
+            panel4.TabIndex = 0;
+            // 
+            // authRememberCredential
+            // 
+            authRememberCredential.AutoSize = true;
+            authRememberCredential.Location = new Point(250, 205);
+            authRememberCredential.Name = "authRememberCredential";
+            authRememberCredential.Size = new Size(181, 24);
+            authRememberCredential.TabIndex = 6;
+            authRememberCredential.TabStop = true;
+            authRememberCredential.Text = "Remember Credentials";
+            authRememberCredential.UseVisualStyleBackColor = true;
+            authRememberCredential.CheckedChanged += AuthRememberCredential_CheckedChanged;
+            // 
+            // authLoginBtn
+            // 
+            authLoginBtn.BackColor = Color.MidnightBlue;
+            authLoginBtn.Font = new Font("Arial Unicode MS", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            authLoginBtn.ForeColor = Color.Transparent;
+            authLoginBtn.Location = new Point(28, 250);
+            authLoginBtn.Name = "authLoginBtn";
+            authLoginBtn.Padding = new Padding(5);
+            authLoginBtn.Size = new Size(403, 42);
+            authLoginBtn.TabIndex = 5;
+            authLoginBtn.Text = "Log in";
+            authLoginBtn.UseVisualStyleBackColor = false;
+            authLoginBtn.Click += AuthLoginBtn_Click;
+            // 
+            // authPassword
+            // 
+            authPassword.Font = new Font("Arial Unicode MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            authPassword.Location = new Point(28, 165);
+            authPassword.Name = "authPassword";
+            authPassword.PlaceholderText = "Enter Password";
+            authPassword.Size = new Size(403, 34);
+            authPassword.TabIndex = 4;
+            authPassword.UseSystemPasswordChar = true;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Unicode MS", 10.2F, FontStyle.Bold);
+            label4.Location = new Point(23, 139);
+            label4.Name = "label4";
+            label4.Size = new Size(92, 23);
+            label4.TabIndex = 3;
+            label4.Text = "Password";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Unicode MS", 10.2F, FontStyle.Bold);
+            label3.Location = new Point(25, 69);
+            label3.Name = "label3";
+            label3.Size = new Size(95, 23);
+            label3.TabIndex = 2;
+            label3.Text = "Username";
+            // 
+            // authUsername
+            // 
+            authUsername.Font = new Font("Arial Unicode MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            authUsername.Location = new Point(28, 95);
+            authUsername.Name = "authUsername";
+            authUsername.PlaceholderText = "Enter Your Username";
+            authUsername.Size = new Size(403, 34);
+            authUsername.TabIndex = 1;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Unicode MS", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(23, 20);
+            label2.Name = "label2";
+            label2.Size = new Size(83, 31);
+            label2.TabIndex = 0;
+            label2.Text = "Log in";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Gray;
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImageLayout = ImageLayout.Center;
+            panel2.Dock = DockStyle.Left;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Padding = new Padding(50, 100, 50, 100);
+            panel2.Size = new Size(490, 653);
+            panel2.TabIndex = 0;
             // 
             // Authentication
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(51, 51, 76);
-            ClientSize = new Size(932, 653);
+            BackColor = SystemColors.Desktop;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1282, 853);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Authentication";
+            Padding = new Padding(50, 100, 50, 100);
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Elevara";
             Load += Authentication_Load;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private TextBox textBox1;
-        private Label label1;
-        private Label label4;
-        private TextBox textBox3;
-        private Label label3;
-        private TextBox textBox2;
-        private Label label2;
-        private ComboBox comboBox1;
-        private Label label6;
-        private ComboBox comboBox2;
-        private Label label7;
-        private Label label5;
-        private TextBox textBox4;
-        private ComboBox comboBox3;
-        private Label label8;
         private Panel panel2;
-        private Button button1;
-        private PictureBox pictureBox1;
-        private Button button2;
-        private Label label9;
-        private TextBox textBox5;
+        private Panel panel3;
+        private Panel panel4;
+        private Label label1;
+        private Label label2;
+        private TextBox authUsername;
+        private TextBox authPassword;
+        private Label label4;
+        private Label label3;
+        private Button authLoginBtn;
+        private Panel panel5;
+        private RadioButton authRememberCredential;
+        private Label label5;
+        private Label authSignUp;
     }
 }
